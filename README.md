@@ -1,6 +1,6 @@
-# ClearSpend Receipt Reimbursement Validator
+# Receipt Reimbursement Validator
 
-ClearSpend accepts PDF or JPEG receipts, extracts embedded text or runs local OCR, asks Google Gemini for validated structured expense data, and applies a deterministic reimbursement policy. Ambiguous cases receive an advisory explanation and remain **Needs Review**.
+This Receipt Reimbursment Validator accepts PDF or JPEG receipts, extracts embedded text or runs local OCR, asks Google Gemini for validated structured expense data, and applies a deterministic reimbursement policy. Ambiguous cases receive an advisory explanation and remain **Needs Review**.
 
 ## Quick start with Docker
 
