@@ -12,7 +12,7 @@ PostgreSQL stores both receipt binaries and results. The API processes receipts 
 
 ## Local development
 
-Node.js 20+, PostgreSQL, Poppler (`pdftotext`, `pdftoppm`, and `pdfinfo`), and Tesseract with English data are required. Install packages with `npm install`, run `npm run db:migrate`, then `npm run dev`. See [COMMANDS.md](COMMANDS.md) for the complete command list.
+Node.js 20+, PostgreSQL, Poppler (`pdftotext`, `pdftoppm`, and `pdfinfo`), and Tesseract with English data are required. Install packages with `npm install`, run `npm run db:migrate`, then `npm run dev`.
 
 Because processing is intentionally in-process for this single-user deployment, restarting the API marks any active receipt as failed so it can be resubmitted cleanly.
 
